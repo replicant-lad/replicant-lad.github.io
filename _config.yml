@@ -88,7 +88,7 @@ content:
             the project now intakes data from numerous sources and data types, with more incoming, and the testing suite remains a core part of the development cycle. I work
             within a team of four developers and promote a focus on data quality visibility.
 
-        layout: left
+      - layout: left
         title: IDEXX Laboratories
         link: idexx.com
         # link_text: boringcompany.com
