@@ -48,15 +48,17 @@ linkedin_username: douglas-l-dexter
 # about_title: About Me
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  Lorem Ipsum
+  Hello, my name is Douglas Dexter and I'm a software testing analyst at IDEXX Laboratories. I have worked over a number of teams constructing robust automated testing solutions for
+  CI/CD focused data engineering teams. I am a data nerd at heart and have been working towards building out my toolbelt for an eventual shift into a development position. I have ample experience
+  in Python (pytest, boto3, pandas), AWS data handling (S3, Glue, Lambda, Redshift), Snowflake, and working in Agile environments. 
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Lorem Ipsum
-        link: github.com/replicant-lad
+        title: Magic the Data Gathering
+        link: https://github.com/replicant-lad/magic-the-data-gathering
         # link_text: Project Website
         additional_links:
           - title:  
@@ -66,9 +68,9 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          Loremmy ipsummy
+          Example ETL project utilizing Wizards of the Coast's Magic: The Gathering cards as a living data source.
         description: | # this will include new lines to allow paragraphs
-          lorem ipsum
+          This is an on-going project for exmplifying my learned ETL and Data Engineering skills. This blurb should be updated upon its completion with a link to a dashboard.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -78,11 +80,13 @@ content:
         link: idexx.com
         # link_text: boringcompany.com
         sub_title: Software Testing Analyst
-        caption: July 2023 - Present
+        caption: June - Present
         quote: >
-          lorum ipsum
+          Sole quality engineer for a flagship data platform serving AI/ML teams through AWS/Snowflake
         description: | # this will include new lines to allow paragraphs
-            lorum ipsum
+            I was brought onto a high-value high-output team of developers to build out an end-to-end testing suite for their data pipeline. After a year and a half
+            the project now intakes data from numerous sources and data types, with more incoming, and the testing suite remains a core part of the development cycle. I work
+            within a team of four developers and promote a focus on data quality visibility.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -91,18 +95,21 @@ content:
         title: University of Colorado at Boulder
         caption: 2014-2018
         sub_title: BA Biochemistry
-        quote: >
-          lorum ipsum
         description: | # this will include new lines to allow paragraphs
-          lorum ipsum
+          My time at CU Boulder was primarily dedicated to attaining a degree in Biochemistry. While I no longer work in the pharmaceutical field my experiences throughout university
+          and my-early career gave me deep understanding of complex data systems and meticulous analysis. As a testing analyst and data engineering learner, I leverage those experiences
+          to develop efficient solutions. Through the lens of biochemistry I bring a unique perspective to the world of data, bridging the gap between science and the technology that supports it.
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      lorum ipsum
+      In my free time I consider myself a hobbyist's hobbyist, moving my focus from hobby to hobby to explore. Some hobbies have become something of a mainstay, though:
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      - Thru-Hiking and Camping
+      - Ukiyo-e Woodblock Carving
+      - Ukulele and Piano
+      - Tabletop RPGs, LARPing, and Trading Card Games
+
 
 # Footer
 footer_show_references: true
