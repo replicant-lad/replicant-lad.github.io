@@ -80,13 +80,26 @@ content:
         link: idexx.com
         # link_text: boringcompany.com
         sub_title: Software Testing Analyst
-        caption: June - Present
+        caption: June 2023 - Present
         quote: >
           Sole quality engineer for a flagship data platform serving AI/ML teams through AWS/Snowflake
         description: | # this will include new lines to allow paragraphs
-            I was brought onto a high-value high-output team of developers to build out an end-to-end testing suite for their data pipeline. After a year and a half
+            I was brought onto a high-value high-output team of developers to build out an end-to-end testing suite for their data pipeline. After a year
             the project now intakes data from numerous sources and data types, with more incoming, and the testing suite remains a core part of the development cycle. I work
             within a team of four developers and promote a focus on data quality visibility.
+
+        layout: left
+        title: IDEXX Laboratories
+        link: idexx.com
+        # link_text: boringcompany.com
+        sub_title: Software Engineer in Test
+        caption: June 2021 - June 2023
+        quote: >
+          Lead quality engineer lead for a high priority, fast paced database retirement project.
+        description: | # this will include new lines to allow paragraphs
+            I started at IDEXX working on a data warehouse retirement team looking to rebuild their infrastructure on AWS and Snowflake. I acted as the solo quality engineer for a 
+            team of six developers, and worked alongside an adjacent team building out a testing platform focusing on source-to-target testing. I quickly became a core quality resource,
+            and eventually onboarded my replacement for the role as I transitioned to my new position.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
