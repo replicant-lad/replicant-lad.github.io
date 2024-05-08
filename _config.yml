@@ -61,12 +61,11 @@ content:
         title: Magic the Data Gathering
         link: https://github.com/replicant-lad/magic-the-data-gathering
         link_text: Project Github
+        link: https://lookerstudio.google.com/reporting/65b3b7c3-6e47-429f-b331-ec07cfaabce2
+        link_test: LookerStudio Report
         additional_links:
-          - title:  LookerStudio Report
-            link_test: LookerStudio Report 
-            link: https://lookerstudio.google.com/reporting/65b3b7c3-6e47-429f-b331-ec07cfaabce2
         quote: >
-          Example ETL project utilizing Wizards of the Coast's Magic: The Gathering cards as a living data source. Utilizes AWS Lambdas to extract, transform, and load Scryfall's bulk data dumps into a personal database, with a [LookerStudio report](https://lookerstudio.google.com/reporting/65b3b7c3-6e47-429f-b331-ec07cfaabce2) built as a viewable front-end.
+          Example ETL project utilizing Wizards of the Coast's Magic: The Gathering cards as a living data source. Utilizes AWS Lambdas to extract, transform, and load Scryfall's bulk data dumps into a personal database, with a LookerStudio report built as a viewable front-end.
         description: | # this will include new lines to allow paragraphs
           The project extracts data from Scryfall's daily bulk dumps and transforms it into a structured format before loading it into a MySQL database for easy access and analysis. For ease (and cost) the database only stores the most recognizable format of each individual card. The bulk of the work was done using AWS Lambda functions for extracting and transforming the data into an S3 bucket and then loading into the MySQL database from there. A step function is triggered daily at noon MST through an EventBridge. The project integrates with a boilerplate LookerStudio Report that looks at the total number of cards printed over time, and the greatest card price differences from day-to-day and over the week while allowing you to sort by set legality.
 
