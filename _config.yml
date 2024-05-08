@@ -61,9 +61,9 @@ content:
         title: Magic the Data Gathering
         link: https://github.com/replicant-lad/magic-the-data-gathering
         link_text: Project Github
-        link: https://lookerstudio.google.com/reporting/65b3b7c3-6e47-429f-b331-ec07cfaabce2
-        link_text: LookerStudio Report
         additional_links:
+          - link: https://lookerstudio.google.com/reporting/65b3b7c3-6e47-429f-b331-ec07cfaabce2
+            link_text: LookerStudio Report
         quote: >
           Example ETL project utilizing Wizards of the Coast's Magic: The Gathering cards as a living data source. Utilizes AWS Lambdas to extract, transform, and load Scryfall's bulk data dumps into a personal database, with a LookerStudio report built as a viewable front-end.
         description: | # this will include new lines to allow paragraphs
