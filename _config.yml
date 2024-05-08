@@ -49,7 +49,9 @@ linkedin_username: douglas-l-dexter
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
   Hello, I'm Douglas Dexter, a software testing analyst at IDEXX Laboratories with a passion for building robust automated testing solutions. Over the years, I've collaborated across multiple teams to create streamlined CI/CD-focused data engineering processes. As a self-proclaimed data nerd, I'm constantly expanding my skill set to transition into a development role seamlessly.
+  
   My expertise lies in Python, where I leverage tools like PyTest, PyUnit, and Selenium to create efficient testing frameworks. Additionally, I have a strong background in AWS-based solutions, including S3, Glue, Lambda, Airflow, and Redshift. I'm also proficient in Snowflake and have experience thriving in Agile environments, ensuring rapid development cycles and continuous improvement.
+  
   I'm excited about the intersection of technology and innovation, and I'm always eager to tackle new challenges and explore emerging trends in the industry. Let's connect and collaborate to drive impactful solutions together!
 content:
   - title: Projects # Title for the section
@@ -61,8 +63,8 @@ content:
         link_text: Project Github
         additional_links:
           - title:  LookerStudio Report
-            icon: 
-            url: https://lookerstudio.google.com/reporting/65b3b7c3-6e47-429f-b331-ec07cfaabce2
+            link_test: LookerStudio Report 
+            link: https://lookerstudio.google.com/reporting/65b3b7c3-6e47-429f-b331-ec07cfaabce2
         quote: >
           Example ETL project utilizing Wizards of the Coast's Magic: The Gathering cards as a living data source. Utilizes AWS Lambdas to extract, transform, and load Scryfall's bulk data dumps into a personal database, with a LookerStudio report built as a viewable front-end report.
         description: | # this will include new lines to allow paragraphs
