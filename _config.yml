@@ -62,7 +62,7 @@ content:
         link: https://github.com/replicant-lad/magic-the-data-gathering
         link_text: Project Github
         link: https://lookerstudio.google.com/reporting/65b3b7c3-6e47-429f-b331-ec07cfaabce2
-        link_test: LookerStudio Report
+        link_text: LookerStudio Report
         additional_links:
         quote: >
           Example ETL project utilizing Wizards of the Coast's Magic: The Gathering cards as a living data source. Utilizes AWS Lambdas to extract, transform, and load Scryfall's bulk data dumps into a personal database, with a LookerStudio report built as a viewable front-end.
@@ -109,17 +109,6 @@ content:
           My time at CU Boulder was primarily dedicated to attaining a degree in Biochemistry. While I no longer work in the pharmaceutical field my experiences throughout university
           and my-early career gave me deep understanding of complex data systems and meticulous analysis. As a testing analyst and data engineering learner, I leverage those experiences
           to develop efficient solutions. Through the lens of biochemistry I bring a unique perspective to the world of data, bridging the gap between science and the technology that supports it.
-
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      In my free time I consider myself a hobbyist's hobbyist, moving my focus from hobby to hobby to explore. Some hobbies have become something of a mainstay, though:
-
-      - Thru-Hiking and Camping
-      - Ukiyo-e Woodblock Carving
-      - Ukulele and Piano
-      - Trading Card Games
-      - Tabletop RPGs, LARPing
 
 
 # Footer
